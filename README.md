@@ -16,11 +16,13 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
     [x] description
     [x] path for
     [x] likes
+[x] npm install axios
 [x] npm run server
 [x] npm run client
 
 # Functionality
 [] GET to grab data and put in app.jsx (/gallery)
+    [] useEffect to load images on page load
 [] component GalleryList
 [] component GalleryItem
 
