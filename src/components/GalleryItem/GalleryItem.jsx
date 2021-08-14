@@ -1,10 +1,12 @@
 import GalleryList from "../GalleryList/GalleryList";
 
-function ShowImages({image}) {
-    console.log(image);
+function GalleryItem() {
+    console.log('in GalleryItem');
     return (
         <>
             <div>Hello</div>
         </>
     )
 } // end ShowImages
+
+export default GalleryItem;

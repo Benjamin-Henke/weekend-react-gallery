@@ -1,3 +1,4 @@
+import GalleryItems from '../GalleryItem/GalleryItem';
 
 function GalleryList({galleryList}) {
 
@@ -6,13 +7,10 @@ function GalleryList({galleryList}) {
     return (
         <>
             <h4>Enjoy!</h4>
-            {galleryList.map(image => <GalleryItem image={image}/>)}
+            {galleryList.map(image => <GalleryItems image={image} />)}
 
         </>
     ); // end return
 } // end GalleryList
 
 export default GalleryList;
-
-
-{ shoppingList.map(item => <ShoppingItem item={item} purchaseItem={purchaseItem} />) }
