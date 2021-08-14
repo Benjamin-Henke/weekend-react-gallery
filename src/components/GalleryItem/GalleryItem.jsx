@@ -2,8 +2,12 @@ function GalleryItem({image}) {
     console.log(image);
     return (
         <>
-            <div className="image">
-                <img src={image.path} />
+            <div className="imgParentElement">
+                <img className="img" src={image.path} />
+                <br></br>
+                <button>Sweet</button>
+                <br></br>
+                <p>{image.likes} Sweets</p>
             </div>
         </>
     )

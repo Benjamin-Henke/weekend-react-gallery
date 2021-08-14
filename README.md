@@ -22,8 +22,8 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 
 # Functionality
 [x] GET to grab data and put in app.jsx (/gallery)
-[] component GalleryList
-[] component GalleryItem
+[x] component GalleryList
+[x] component GalleryItem
 
 
 
