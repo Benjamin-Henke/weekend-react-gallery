@@ -1,10 +1,10 @@
-import GalleryList from "../GalleryList/GalleryList";
-
-function GalleryItem() {
-    console.log('in GalleryItem');
+function GalleryItem({image}) {
+    console.log(image);
     return (
         <>
-            <div>Hello</div>
+            <div className="image">
+                <img src={image.path} />
+            </div>
         </>
     )
 } // end ShowImages

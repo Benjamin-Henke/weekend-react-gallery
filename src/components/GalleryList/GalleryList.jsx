@@ -1,14 +1,11 @@
-import GalleryItems from '../GalleryItem/GalleryItem';
+import GalleryItem from '../GalleryItem/GalleryItem';
 
 function GalleryList({galleryList}) {
-
     console.log(galleryList);
 
     return (
         <>
-            <h4>Enjoy!</h4>
-            {galleryList.map(image => <GalleryItems image={image} />)}
-
+            {galleryList.map(image=> <GalleryItem image={image} />)}
         </>
     ); // end return
 } // end GalleryList
