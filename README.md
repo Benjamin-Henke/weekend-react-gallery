@@ -21,7 +21,7 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 [x] npm run client
 
 # Functionality
-[] GET to grab data and put in app.jsx (/gallery)
+[x] GET to grab data and put in app.jsx (/gallery)
     [] useEffect to load images on page load
 [] component GalleryList
 [] component GalleryItem
