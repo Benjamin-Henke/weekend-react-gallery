@@ -24,6 +24,8 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 [x] GET to grab data and put in app.jsx (/gallery)
 [x] component GalleryList
 [x] component GalleryItem
+[] sweet button
+    [] update number of likes in database
 
 
 

@@ -1,11 +1,11 @@
 import GalleryItem from '../GalleryItem/GalleryItem';
 
-function GalleryList({galleryList}) {
+function GalleryList({galleryList, likeImage}) {
     console.log(galleryList);
 
     return (
         <>
-            {galleryList.map(image=> <GalleryItem image={image} />)}
+            {galleryList.map(image=> <GalleryItem image={image} likeImage={likeImage}/>)}
         </>
     ); // end return
 } // end GalleryList
