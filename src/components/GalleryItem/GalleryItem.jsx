@@ -17,13 +17,17 @@ function GalleryItem({image, likeImage}) {
     } // end ImgClick
 
     function DescriptionClick() {
-
+        console.log('Description', image.id);
+        setImageInfo(false)
     } // end DescriptionClick
 
     return (
         <>
             <div className="imgParentElement">
-                {imgInfo === true ? <h3 className="imgDescription" onClick={DescriptionClick}>{image.description}</h3> : <img className="img" onClick={ImgClick}src={image.path} />}
+                {imgInfo === true || false ? 
+                    <div className="descriptionParent" onClick={DescriptionClick}><h2 className="imgDescription" >{image.description}</h2></div>
+                    : 
+                    <img className="img" onClick={ImgClick}src={image.path} />}
                 <br></br>
                 <button onClick={SweetBtn}>Sweet Pic</button>
                 <br></br>

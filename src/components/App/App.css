@@ -24,9 +24,13 @@
   margin: 50px;
 }
 
-.imgDescription{
+.descriptionParent{
   height: 180px;
   width: 200px;
   margin: 50px;
-  word-wrap: break-word;
+}
+
+
+.imgDescription{
+  word-wrap: normal;
 }
