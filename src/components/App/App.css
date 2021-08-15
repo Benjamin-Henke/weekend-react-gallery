@@ -23,3 +23,10 @@
   width: 200px;
   margin: 50px;
 }
+
+.imgDescription{
+  height: 180px;
+  width: 200px;
+  margin: 50px;
+  word-wrap: break-word;
+}
