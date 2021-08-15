@@ -1,5 +1,6 @@
 import GalleryItem from '../GalleryItem/GalleryItem';
 
+// Allows galleryList and likeImage to be passed through GalleryList
 function GalleryList({galleryList, likeImage}) {
     console.log(galleryList);
 

@@ -2,6 +2,7 @@ import {useState} from 'react';
 
 function GalleryItem({image, likeImage}) {
 
+    // Used to change the state of imgInfo in order to change the DOM
     const [imgInfo, setImageInfo] = useState('');
 
 
@@ -16,11 +17,13 @@ function GalleryItem({image, likeImage}) {
         setImageInfo(true)
     } // end ImgClick
 
+    // Handle click even when description is clicked
     function DescriptionClick() {
         console.log('Description', image.id);
         setImageInfo(false)
     } // end DescriptionClick
 
+    // What will be rendered on the DOM
     return (
         <>
             <div className="imgParentElement">

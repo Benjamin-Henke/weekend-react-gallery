@@ -5,6 +5,7 @@ import GalleryList from '../GalleryList/GalleryList';
 
 function App() {
   
+  // Setting galleryList's value to data from database to be able to pass through components
   const [galleryList, setGalleryList] = useState([]);
 
   useEffect(() => {
@@ -13,6 +14,7 @@ function App() {
     fetchImages(); 
   }, [])
 
+  // GET req to gallery data to display
   const fetchImages = () => {
     console.log('FetchImages');
     axios.get('/gallery').then(response => {
@@ -24,7 +26,7 @@ function App() {
     })
   } // end fetchImages
 
-
+  // PUT req tp update number of likes on a photo
   const likeImage = (id) => {
     console.log(id);
     axios.put(`/gallery/like/${id}`).then(response => {
@@ -36,6 +38,7 @@ function App() {
     })
   } // end likeImage
 
+  // What will be display on the DOM
     return (
       <div className="App">
         <header className="App-header">
