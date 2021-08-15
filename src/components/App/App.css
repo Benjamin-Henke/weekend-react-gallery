@@ -13,3 +13,24 @@
   font-size: 1.5em;
 }
 
+.imgParentElement {
+  display: inline-block;
+
+}
+
+.img {
+  height: 180px;
+  width: 200px;
+  margin: 50px;
+}
+
+.descriptionParent{
+  height: 180px;
+  width: 200px;
+  margin: 50px;
+}
+
+
+.imgDescription{
+  word-wrap: normal;
+}

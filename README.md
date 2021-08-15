@@ -16,13 +16,16 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
     [x] description
     [x] path for
     [x] likes
+[x] npm install axios
 [x] npm run server
 [x] npm run client
 
 # Functionality
-[] GET to grab data and put in app.jsx (/gallery)
-[] component GalleryList
-[] component GalleryItem
+[x] GET to grab data and put in app.jsx (/gallery)
+[x] component GalleryList
+[x] component GalleryItem
+[x] sweet button
+    [x] update number of likes in database
 
 
 
