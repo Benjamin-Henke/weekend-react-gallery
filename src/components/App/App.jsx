@@ -27,7 +27,7 @@ function App() {
 
   const likeImage = (id) => {
     console.log(id);
-    axios.put(`/gallery/${id}`).then(response => {
+    axios.put(`/gallery/like/${id}`).then(response => {
       console.log('PUT Successful');
       fetchImages();
     }).catch(error => {
